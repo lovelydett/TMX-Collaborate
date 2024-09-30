@@ -1,7 +1,7 @@
 /***
  * Get all the symbols of the stocks listed on the TSX from the TMX Money website
  * @author: Yuting Xie
- * @date: 2024-09-29
+ * @date: 2024/09/29
  */
 
 import * as fs from "fs";

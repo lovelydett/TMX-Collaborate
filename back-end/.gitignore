@@ -1,0 +1,73 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider project files
+.idea/
+.idea_modules/
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore NuGet Packages
+**/packages/*
+# Uncomment if you have nuget.exe in the working directory
+# nuget.exe
+
+# Ignore build files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ignore publish output
+publish/
+out/
+
+# Ignore directories for toolset
+tools/
+
+# Ignore runtime assets
+appsettings.Development.json
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore coverage output
+coverage/
+coverage.info
+*.lcov
+
+# Ignore temp files
+*.tmp
+*.temp
+
+# Ignore temporary files from editors
+*.swp
+*.sln.ide
+*.DS_Store
+Thumbs.db
+
+# Ignore Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Ignore JetBrains Rider temporary files
+.idea/
+*.sln.iml
+
+# Ignore docker-related files
+.docker/
+docker-compose.override.yml
+
+# Ignore node_modules if using any frontend packages
+node_modules/
+
+# Ignore generated files from Azure or other cloud deployments
+.secrets/
